@@ -2,28 +2,26 @@
 
 ## Overview
 
-This project demonstrates the process of troubleshooting a DNS-related connectivity issue in a Windows-based lab environment. The objective was to identify the cause of a website access problem, verify network communication, and restore successful DNS name resolution using standard Windows networking tools.
+This project demonstrates a structured approach to troubleshooting a DNS-related network connectivity issue. The goal was to identify why a system could not access a website and verify whether the problem was caused by DNS resolution or general network connectivity.
 
-## Objectives
+## Skills Demonstrated
 
-- Verify basic network connectivity.
-- Test DNS name resolution.
-- Identify and resolve the source of the connectivity issue.
-- Confirm that the solution successfully restored website access.
+- DNS troubleshooting
+- Network troubleshooting
+- Command-line diagnostics
+- TCP/IP troubleshooting
+- Windows administration
+- Problem-solving methodology
 
 ## Environment
 
-- Windows Server
-- Windows Command Prompt
-- Internet Explorer
-- Windows-based lab environment
+- Windows Server Lab Environment
 
 ## Tools Used
 
-- nslookup
 - ping
+- nslookup
 - ipconfig
-- Internet Explorer
 
 ## Problem
 
@@ -31,24 +29,16 @@ Users reported they were unable to access a company website. Based on the sympto
 
 ## Investigation
 
-I followed a structured troubleshooting process to isolate the problem. First, I verified network connectivity using the **ping** command. After confirming the network connection was functioning correctly, I used **nslookup** to verify that the hostname resolved to the correct IP address. Once DNS resolution was confirmed, I corrected the URL and successfully verified access to the website.
+I followed a structured troubleshooting process to isolate the problem. First, I verified network connectivity using the **ping** command. After confirming the network connection was working, I used **nslookup** to verify DNS name resolution. I also reviewed the system's IP configuration with **ipconfig** to confirm the correct network settings were being used.
 
 ## Resolution
 
-The issue was resolved by confirming DNS functionality, correcting the web address, and validating that the website loaded successfully. I also reviewed the computer's IP configuration and DHCP settings to better understand how network configuration affects DNS resolution and overall connectivity.
+The troubleshooting process confirmed that network connectivity was functioning properly and DNS resolution successfully translated the website's domain name into an IP address. This verified that the network configuration and DNS services were operating correctly.
 
-## Skills Demonstrated
+## Lessons Learned
 
-- DNS troubleshooting
-- Network connectivity testing
-- Windows command-line networking
-- Basic troubleshooting methodology
-- Problem analysis and verification
-
-## Key Takeaways
-
-This project reinforced the importance of following a structured troubleshooting methodology instead of making assumptions. By verifying connectivity first, testing DNS resolution, reviewing network configuration, and validating the final solution, I was able to identify and resolve the issue efficiently.
+This project reinforced the importance of following a structured troubleshooting process instead of making assumptions. I gained additional experience using Windows networking tools to verify connectivity, examine IP configuration, and troubleshoot DNS resolution issues.
 
 ## Screenshots
 
-The screenshots below document the troubleshooting process, including DNS verification and successful website connectivity after the issue was resolved.
+Screenshots demonstrating the troubleshooting process will be added here.
